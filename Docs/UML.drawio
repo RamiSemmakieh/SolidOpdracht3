@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="IMpaOQ4hiIl60WFNixn_" name="Page-1">
-        <mxGraphModel dx="1386" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="793" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="&lt;font color=&quot;#030303&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;IBrandstofAuto&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="300" y="440" width="140" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#000000;exitX=0.879;exitY=-0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6" target="-0TBXb-f6-NKO0b1xfG4-29">
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#000000;exitX=0.879;exitY=-0.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" target="-0TBXb-f6-NKO0b1xfG4-29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;+Tanken(): void&lt;br&gt;+MotoAanzetten(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
@@ -25,10 +25,10 @@
                 <mxCell id="-0TBXb-f6-NKO0b1xfG4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#030303;" parent="1" source="11" target="-0TBXb-f6-NKO0b1xfG4-30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#050505;" edge="1" parent="1" source="11" target="20">
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#050505;" parent="1" source="11" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#050505;" edge="1" parent="1" source="11" target="20">
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#050505;" parent="1" source="11" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="&lt;font color=&quot;#050505&quot;&gt;+ BrandstofAuto(naam:String, type:String, bouwjaar:Int)&lt;br&gt;+Tanken(): void&lt;br&gt;+MotoAanzetten(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
@@ -76,7 +76,7 @@
                 <mxCell id="-0TBXb-f6-NKO0b1xfG4-24" value="&lt;font color=&quot;#050505&quot;&gt;Composition&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
                     <mxGeometry x="470" y="390" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="-0TBXb-f6-NKO0b1xfG4-26" value="&lt;font style=&quot;font-weight: normal;&quot; color=&quot;#030303&quot;&gt;TonenAuto&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+                <mxCell id="-0TBXb-f6-NKO0b1xfG4-26" value="&lt;font style=&quot;font-weight: normal;&quot; color=&quot;#030303&quot;&gt;showAuto&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="260" y="250" width="480" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="-0TBXb-f6-NKO0b1xfG4-38" value="&lt;font color=&quot;#000000&quot;&gt;- BrandstoAuto: IBrandstofAuto;&lt;br&gt;- ElektrischAuto: IElektrischAuto;&lt;br&gt;- Auto: Auto;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#030303;" parent="-0TBXb-f6-NKO0b1xfG4-26" vertex="1">
@@ -103,7 +103,7 @@
                 <mxCell id="-0TBXb-f6-NKO0b1xfG4-36" value="&lt;font color=&quot;#000000&quot;&gt;Is&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
                     <mxGeometry x="470" y="750" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="&lt;font color=&quot;#050505&quot;&gt;+ BrandstofAuto(naam:String, type:String, bouwjaar:Int)&lt;br&gt;+Tanken(): void&lt;br&gt;+MotoAanzetten(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+                <mxCell id="20" value="&lt;font color=&quot;#050505&quot;&gt;+ BrandstofAuto(naam:String, type:String, bouwjaar:Int)&lt;br&gt;+Tanken(): void&lt;br&gt;+MotoAanzetten(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="130" y="540" width="310" height="50" as="geometry"/>
                 </mxCell>
             </root>
