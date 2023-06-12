@@ -31,7 +31,7 @@
                 <mxCell id="22" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#050505;" parent="1" source="11" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="&lt;font color=&quot;#050505&quot;&gt;+ BrandstofAuto(naam:String, type:String, bouwjaar:Int)&lt;br&gt;+Tanken(): void&lt;br&gt;+MotoAanzetten(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+                <mxCell id="11" value="&lt;font color=&quot;#050505&quot;&gt;+ BrandstofAuto(naam:String, type:String, bouwjaar:Int)&lt;br&gt;+Tanken(): void&lt;br&gt;+MotoAan: void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="130" y="670" width="310" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;ElektrischeAuto&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
