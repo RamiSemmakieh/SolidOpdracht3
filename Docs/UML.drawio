@@ -10,7 +10,7 @@
                 <mxCell id="19" value="" style="edgeStyle=none;html=1;strokeColor=#030303;fontColor=#000000;exitX=0.879;exitY=-0.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" target="-0TBXb-f6-NKO0b1xfG4-29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;+Tanken(): void&lt;br&gt;+MotoAanzetten(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+                <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;+Tanken(): void&lt;br&gt;+MotoAan(): void&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="300" y="490" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="&lt;font color=&quot;#000000&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;IElektrischAuto&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#030303;fillColor=#FFFFFF;" parent="1" vertex="1">
@@ -85,7 +85,7 @@
                 <mxCell id="-0TBXb-f6-NKO0b1xfG4-28" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#030303;" parent="-0TBXb-f6-NKO0b1xfG4-26" vertex="1">
                     <mxGeometry y="90" width="480" height="10" as="geometry"/>
                 </mxCell>
-                <mxCell id="-0TBXb-f6-NKO0b1xfG4-29" value="&lt;font color=&quot;#080808&quot;&gt;+TonenAuto(brandstoauto:IBrandstofAuto, elektrischauto:IElektrischAuto,&lt;span style=&quot;text-align: center;&quot;&gt;Auto:Auto&lt;/span&gt;)&lt;br&gt;+ToonInfoAuto(): void&lt;/font&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=#030303;" parent="-0TBXb-f6-NKO0b1xfG4-26" vertex="1">
+                <mxCell id="-0TBXb-f6-NKO0b1xfG4-29" value="&lt;font color=&quot;#080808&quot;&gt;+showAuto(brandstoauto:IBrandstofAuto, elektrischauto:IElektrischAuto,&lt;span style=&quot;text-align: center;&quot;&gt;Auto:Auto&lt;/span&gt;)&lt;br&gt;+ToonInfoAuto(): void&lt;/font&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=#030303;" parent="-0TBXb-f6-NKO0b1xfG4-26" vertex="1">
                     <mxGeometry y="100" width="480" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="-0TBXb-f6-NKO0b1xfG4-30" value="&lt;font color=&quot;#030303&quot;&gt;Auto&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
